@@ -22,7 +22,7 @@ extension UIScrollView {
         }
     }
     
-    func addPullToRefresh(pullToRefresh: PullToRefresh, action:()->()) {
+    func addPullToRefresh(pullToRefresh: PullToRefresh, action:()->Void) {
         if self.pullToRefresh != nil {
             self.removePullToRefresh(self.pullToRefresh!)
         }
