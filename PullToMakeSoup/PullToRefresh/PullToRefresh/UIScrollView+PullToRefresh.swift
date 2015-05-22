@@ -37,7 +37,7 @@ extension UIScrollView {
         self.sendSubviewToBack(view)
     }
     
-    func removePullToRefresh(pullToRefresh: PullToRefresh) {
+    func removePullToRefresh() {
         self.pullToRefresh?.refreshView.removeFromSuperview()
         self.pullToRefresh = nil
     }
